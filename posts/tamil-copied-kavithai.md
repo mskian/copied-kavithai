@@ -520,6 +520,14 @@ All are Copied from Twitter Profiles.
 
 ***
 
+எந்த ஒரு சூழ்நிலையிலும்  
+உன் உள்ளத்தை தெளிவாக  
+வைத்துக்கொள். அது ஒன்றே  
+உன்னை மீட்டெடுக்கும்  
+மிகப்பெரிய சக்தி
+
+***
+
 ## Disclaimer
 
 All Kavithai and Quotes are Copied from Different Social Profiles and Pages we have not Owned any date or Content
