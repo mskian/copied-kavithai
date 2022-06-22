@@ -546,6 +546,15 @@ All are Copied from Twitter Profiles.
 
 ***
 
+கேட்குற நேரத்துல  
+கொடுத்தால் தான்  
+பலரிடம் நல்லவனாக  
+இருக்க முடிகிறது  
+நம்மிடம் இல்லாததை பற்றி  
+அவர்களுக்கு கவலையில்லை
+
+***
+
 ## Disclaimer
 
 All Kavithai and Quotes are Copied from Different Social Profiles and Pages we have not Owned any date or Content
