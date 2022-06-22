@@ -1,6 +1,6 @@
 ---
 title: Tamil Copied Kavithai - Tamil Kavithai Database
-description: Tamil Copied Kavithai - Tamil Kavithai Database - Copied Kavithai From Tamil Kavithai Sites, Facebook and Twitter Profiles.
+description: Tamil Copied Kavithai - Tamil Kavithai Database - Copied Kavithai From Tamil Kavithai Sites, Facebook, and Twitter Profiles.
 publish_date: 2022-06-22
 ---
 
@@ -522,5 +522,5 @@ All are Copied from Twitter Profiles.
 
 ## Disclaimer
 
-All Kavithai and Quotes are Copied from Different Social Profiles and Pages we are not Owned any date or Content
-it's Just a Database fo rCollect My Favourite Tamil SMS and Tamil Kavithai.
+All Kavithai and Quotes are Copied from Different Social Profiles and Pages we have not Owned any date or Content
+it's Just a Database for collecting My Favourite Tamil SMS and Tamil Kavithai.
