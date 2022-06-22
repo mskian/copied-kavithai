@@ -534,6 +534,18 @@ All are Copied from Twitter Profiles.
 
 ***
 
+அவள் சிறு மெளனமே  
+எனக்கான காலம்  
+இதழ் பதிக்க இடமளித்த  
+அவள் கண்ணமே  
+எனக்கான உலகம்  
+இடை விழுந்து இடைபடாமல்  
+இருக்கவே இருக பற்றும்  
+அவள் இடையே  
+எனக்கான உயிர்
+
+***
+
 ## Disclaimer
 
 All Kavithai and Quotes are Copied from Different Social Profiles and Pages we have not Owned any date or Content
