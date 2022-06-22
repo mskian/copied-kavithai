@@ -579,4 +579,3 @@ All are Copied from Twitter Profiles.
 
 All Kavithai and Quotes are Copied from Different Social Profiles and Pages we have not Owned any date or Content
 it's Just a Database for collecting My Favourite Tamil SMS and Tamil Kavithai.
-
