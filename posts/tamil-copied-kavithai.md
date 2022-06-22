@@ -562,7 +562,21 @@ All are Copied from Twitter Profiles.
 
 ***
 
+ஏமாந்தது வருத்தம்  
+தரவில்லை  
+ஆனால் உண்டு  
+குடித்து உறங்கி  
+கூடவே இருந்த  
+போது அடையாளம்  
+காண தவறி விட்டேன்  
+என்பது தான்  
+மிக மிக  
+வருத்தம் தருகிறது
+
+***
+
 ## Disclaimer
 
 All Kavithai and Quotes are Copied from Different Social Profiles and Pages we have not Owned any date or Content
 it's Just a Database for collecting My Favourite Tamil SMS and Tamil Kavithai.
+
