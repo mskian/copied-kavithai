@@ -528,6 +528,12 @@ All are Copied from Twitter Profiles.
 
 ***
 
+எதுவுமற்றவர்களிடமே  
+கருணையின் சதவிகிதம்  
+கூடுதலாக இருக்கும்
+
+***
+
 ## Disclaimer
 
 All Kavithai and Quotes are Copied from Different Social Profiles and Pages we have not Owned any date or Content
