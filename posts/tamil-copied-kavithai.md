@@ -8,7 +8,7 @@ publish_date: 2022-06-22
 
 Tamil Kavithai Database - Copied Kavithai From Tamil Kavithai Sites, Facebook and Twitter Profiles.
 
-it contain Tamil kavithai and Tamil Quotes From Different Categories.
+it contains Tamil kavithai and Tamil Quotes From Different Categories.
 All are Copied from Twitter Profiles.
 
 ## Tamil Kavithai Database
