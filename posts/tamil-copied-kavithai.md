@@ -558,7 +558,7 @@ All are Copied from Twitter Profiles.
 ஏமாந்தது வருத்தம்  
 தரவில்லை  
 ஆனால் உண்டு  
-குடித்து உறங்கி 
+குடித்து உறங்கி  
 கூடவே இருந்த  
 போது அடையாளம்  
 காண தவறி விட்டேன்  
@@ -567,7 +567,6 @@ All are Copied from Twitter Profiles.
 வருத்தம் தருகிறது
 
 ***
-
 
 ## Disclaimer
 
