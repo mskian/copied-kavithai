@@ -1,23 +1,54 @@
-import presetWebFonts from 'https://deno.land/x/aleph@1.0.0-alpha.41/lib/@unocss/preset-web-fonts.ts'
-import presetUno from 'https://deno.land/x/aleph@1.0.0-alpha.41/lib/@unocss/preset-uno.ts'
+// deno-lint-ignore-file
+
+import presetUno from "https://deno.land/x/aleph@1.0.0-alpha.41/lib/@unocss/preset-uno.ts";
 
 export const UNOCSS_OPTS = {
   presets: [
     presetUno(),
-    presetWebFonts({
-      provider: 'google',
-      fonts: {
-        sans: {
-          name: 'Anek Tamil',
-          weights: ['300', '400', '500', '600', '700'],
-        },
-        mono: ['Anek Tamil', 'Anek Tamil:400,700'],
-      },
-    }),
   ],
   preflights: [
     {
       getCSS: ({ theme }) => `
+      @font-face {
+        font-family: 'Anek Tamil';
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/anektamil/v4/XLYJIZH2bYJHGYtPGSbUB8JKTp-_9n55SsLHW0WZez6TjtkDu3uNHCd6qw.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: 'Anek Tamil';
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/anektamil/v4/XLYJIZH2bYJHGYtPGSbUB8JKTp-_9n55SsLHW0WZez6TjtkDu3uNQid6qw.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: 'Anek Tamil';
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/anektamil/v4/XLYJIZH2bYJHGYtPGSbUB8JKTp-_9n55SsLHW0WZez6TjtkDu3uNcCd6qw.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: 'Anek Tamil';
+        font-style: normal;
+        font-weight: 600;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/anektamil/v4/XLYJIZH2bYJHGYtPGSbUB8JKTp-_9n55SsLHW0WZez6TjtkDu3uNnCB6qw.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: 'Anek Tamil';
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/anektamil/v4/XLYJIZH2bYJHGYtPGSbUB8JKTp-_9n55SsLHW0WZez6TjtkDu3uNpSB6qw.ttf) format('truetype');
+      }
         html {
             font-family: 'Anek Tamil', sans-serif;
         }
@@ -48,7 +79,7 @@ export const UNOCSS_OPTS = {
                } 
         }
         
-      `
-    }
-  ]
-}
+      `,
+    },
+  ],
+};
