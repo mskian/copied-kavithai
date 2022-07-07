@@ -1,5 +1,5 @@
-import presetWebFonts from 'https://esm.sh/@unocss/preset-web-fonts@0.42.0'
-import presetUno from 'https://esm.sh/@unocss/preset-uno@0.42.0'
+import presetWebFonts from 'https://deno.land/x/aleph@1.0.0-alpha.41/lib/@unocss/preset-web-fonts.ts'
+import presetUno from 'https://deno.land/x/aleph@1.0.0-alpha.41/lib/@unocss/preset-uno.ts'
 
 export const UNOCSS_OPTS = {
   presets: [
