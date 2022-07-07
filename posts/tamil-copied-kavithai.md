@@ -1,7 +1,7 @@
 ---
 title: Tamil Copied Kavithai - Tamil Kavithai Database
 description: Tamil Copied Kavithai - Tamil Kavithai Database - Copied Kavithai From Tamil Kavithai Sites, Facebook, and Twitter Profiles.
-publish_date: 2022-06-22
+publish_date: 2022-07-07
 og:image: "https://images.weserv.nl/?url=https://kavithai.tamilsms.blog/wp-content/uploads/2022/06/tamil-kavithai-database.png"
 ---
 
@@ -610,5 +610,49 @@ Copied from Twitter Profiles.
 கையில் வந்தாலும்  
 சாதரணமாகவே  
 தெரியும்
+
+---
+
+தடைகளை கண்டு  
+தயங்காதே  
+தகர்த்து முன்செல்  
+வெற்றி  
+தாமதம் ஆனால்  
+உனதே
+
+---
+
+நேசிக்க யாருமில்லாத போது  
+ம்மை யோசிக்க வைக்கிறது  
+இந்த வாழ்க்கை
+
+---
+
+எனக்கான  
+செல்வம் நீ  
+எனக்கான  
+சொந்தம் நீ
+
+---
+
+சில ஏமாற்றங்கள்தான்  
+வாழ்க்கையின் புதியபாதை
+
+---
+
+கோபத்தில் நிதானமும்  
+குழப்பத்தில் அமைதியும்  
+துன்பத்தில் தைரியமும்  
+தோல்வியில் பொறுமையும்  
+வெற்றியில் தன்னடக்கமும்  
+வாழ்க்கையை இனிதாக்கும்
+
+---
+
+மற்றவர்களின் சந்தோஷத்துக்காக  
+நம்மை நாம்  
+கஷ்டப்படுத்திக் கொள்வது  
+எந்த விதத்திலும்  
+நன்மையை தந்து விடாது
 
 ---

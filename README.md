@@ -10,13 +10,19 @@ Built using Deno Blog Generator - <https://github.com/denoland/deno_blog>
 - Update to Latest Version
 
 ```sh
-deno cache --reload https://raw.githubusercontent.com/mskian/deno-blog-boilerplate/main/blog.tsx
+deno task update
 ```
 
 - test
 
 ```sh
 deno task dev
+```
+
+- Production
+
+```sh
+deno task serve
 ```
 
 ## LICENSE

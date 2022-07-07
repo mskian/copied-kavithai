@@ -78,7 +78,6 @@ export const UNOCSS_OPTS = {
 	            background-color: transparent !important;
                } 
         }
-        
       `,
     },
   ],
