@@ -4,7 +4,7 @@ import { UNOCSS_OPTS } from "./unocss.ts";
 blog({
   title: "Kavithai Database",
   description:
-    "Tamil Kavithai Database - Copied Kavithai from Tamil Kavithai Website's and Tamil Quotes Blog.",
+    "Kavithai Storage Blog - Copied Kavithai From Tamil Kavithai Sites, Facebook Profiles, and Twitter Profiles - Tamil Kavithai and Tamil Quotes Status.",
   avatar:
     "https://images.weserv.nl/?url=https://kavithai.tamilsms.blog/wp-content/uploads/2022/07/home.png",
   avatarClass: "rounded-full",

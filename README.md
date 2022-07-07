@@ -1,7 +1,6 @@
 # Copied Kavithai
 
-Copied Kavithai - Copied Kavithai from Tamil Kavithai Website's and Tamil Quotes
-Blog.
+Kavithai Storage Blog - Copied Kavithai From Tamil Kavithai Sites, Facebook Profiles, and Twitter Profiles - Tamil Kavithai and Tamil Quotes Status.  
 
 > Tamil Kavithai Database
 

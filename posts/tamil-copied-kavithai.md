@@ -10,6 +10,8 @@ og:image: "https://images.weserv.nl/?url=https://kavithai.tamilsms.blog/wp-conte
 Tamil Kavithai Database - Copied Kavithai From Tamil Kavithai Sites, Facebook
 and Twitter Profiles.
 
+> Tamil Twitter Kavithai  
+
 ## Disclaimer
 
 All Kavithai and Quotes are Copied from Different Social Profiles and Pages we
