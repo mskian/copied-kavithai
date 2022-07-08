@@ -3,7 +3,10 @@ import { UNOCSS_OPTS } from "./unocss.ts";
 
 blog({
   title: "Kavithai Database",
+  seo_title: "Copied Kavithai - Kavithai Database",
   description:
+    "Copied Kavithai From Tamil Kavithai Sites, Facebook Profiles, and Twitter Profiles - Tamil Kavithai and Tamil Quotes Status.",
+  seo_description:
     "Kavithai Storage Blog - Copied Kavithai From Tamil Kavithai Sites, Facebook Profiles, and Twitter Profiles - Tamil Kavithai and Tamil Quotes Status.",
   avatar:
     "https://images.weserv.nl/?url=https://kavithai.tamilsms.blog/wp-content/uploads/2022/07/home.png",

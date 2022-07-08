@@ -3,6 +3,7 @@ title: Tamil Copied Kavithai - Tamil Kavithai Database
 description: Tamil Copied Kavithai - Tamil Kavithai Database - Copied Kavithai From Tamil Kavithai Sites, Facebook, and Twitter Profiles.
 publish_date: 2022-07-07
 og:image: "https://images.weserv.nl/?url=https://kavithai.tamilsms.blog/wp-content/uploads/2022/06/tamil-kavithai-database.png"
+tags: ["kavithai"]
 ---
 
 ## Kavithai Index
