@@ -9,7 +9,7 @@ blog({
   seo_description:
     "Kavithai Storage Blog - Copied Kavithai From Tamil Kavithai Sites, Facebook Profiles, and Twitter Profiles - Tamil Kavithai and Tamil Quotes Status.",
   avatar:
-    "https://images.weserv.nl/?url=https://kavithai.tamilsms.blog/wp-content/uploads/2022/07/home.png",
+    "https://images.weserv.nl/?url=https://kavithai.tamilsms.blog/wp-content/uploads/2022/07/copied-kavithai.png",
   avatarClass: "rounded-full",
   ogImage:
     "https://images.weserv.nl/?url=https://kavithai.tamilsms.blog/wp-content/uploads/2022/06/tamil-kavithai-database.png",
