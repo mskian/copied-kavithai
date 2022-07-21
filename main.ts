@@ -19,6 +19,6 @@ blog({
   theme: "dark",
   links: [
     { title: "GitHub", url: "https://github.com/mskian/copied-kavithai" },
-    { title: "Instagram", url: "https://instagram.com/tamilsms" },
+    { title: "Instagram", url: "https://instagram.com/copiedkavithai" },
   ],
 });
