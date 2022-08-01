@@ -17,7 +17,7 @@ const site = lume({
 });
 
 site
-  .ignore("README.md", "CHANGELOG.md", "node_modules", "LICENSE")
+  .ignore("README.md", "CHANGELOG.md", "node_modules", "LICENSE", "bulma.min.css", "styles.css")
   .copy("icons")
   .use(postcss())
   .use(terser())

@@ -36,6 +36,12 @@ deno task serve
 deno task build
 ```
 
+- Purge CSS
+
+```sh
+purgecss --css ./_includes/css/bulma.min.css --content "./_includes/**/*.njk" "**/*.njk" "**/*.md"  "./_site/**/*.html" -o ./_includes/css/app.css
+```
+
 ## LICENSE
 
 MIT
