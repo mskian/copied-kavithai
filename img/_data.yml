@@ -1,0 +1,8 @@
+imagick:
+  - resize: [200, 200]
+    suffix: -small
+    format: webp
+  - resize: [800, 800]
+    format: webp
+  - resize: [1000, 1000]
+    format: jpg

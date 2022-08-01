@@ -1,10 +1,20 @@
 # Copied Kavithai
 
+[![Deploy on Server](https://github.com/mskian/copied-kavithai/actions/workflows/server_deploy.yml/badge.svg)](https://github.com/mskian/copied-kavithai/actions/workflows/server_deploy.yml)  
+
 Kavithai Storage Blog - Copied Kavithai From Tamil Kavithai Sites, Facebook Profiles, and Twitter Profiles - Tamil Kavithai and Tamil Quotes Status.  
+
+Build using lume.land - Static site generator for Deno
 
 > Tamil Kavithai Database
 
-Built using Deno Blog Generator - <https://github.com/mskian/deno-blog-boilerplate> (Forked and Update according to our usage)  
+## Servers
+
+- Live Site - <https://copied.kavithai.site>
+
+## Create your's
+
+Build your Own Blog - <https://github.com/lumeland/base-blog>
 
 - Clone or Download repo
 
@@ -14,22 +24,16 @@ cd copied-kavithai
 ```
 
 - Content was Managed in the Folder `/posts`
-- Update to Latest Version
-
-```sh
-deno task update
-```
-
 - test
 
 ```sh
-deno task dev
+deno task serve
 ```
 
 - Production
 
 ```sh
-deno task serve
+deno task build
 ```
 
 ## LICENSE

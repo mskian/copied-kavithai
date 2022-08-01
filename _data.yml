@@ -1,0 +1,9 @@
+metas:
+  site: Copied Kavithai - Kavithai Database
+  twitter: "@copiedkavithai"
+  image: https://images.weserv.nl/?url=https://kavithai.tamilsms.blog/wp-content/uploads/2022/06/tamil-kavithai-database.png
+  lang: en
+  generator: true
+
+mergedKeys:
+  metas: object

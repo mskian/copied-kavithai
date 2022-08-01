@@ -1,0 +1,472 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(45, 59, 255, 0.302);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(191, 18, 253, 0.5);
+}
+body {
+  font-family: 'Anek Tamil', sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  line-height: 1.618;
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: grayscale;
+overflow-x: hidden;
+}
+a {
+    color: rgb(73, 53, 253);
+}
+a:hover {
+  color: #0f00df;
+}
+.navbar{
+  background-color: #6eec83;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.navbar a {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #5a5a5a;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar-burger > span {
+    height: 5px;
+    background-color: #6a67ce;
+  }
+  a.navbar-item {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .navbar-menu {
+    padding-right: 1em;
+  }
+.bio-author {
+  line-height:30px;
+  font-size: 14px;
+  color: #292929;
+}
+.home-title a {
+   color: #292929;
+}
+.home-title a:hover {
+  color: #ff69b4;
+}
+.card {
+  margin: 1.5em 0 1.5em 0;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure {
+  margin: 1em auto;
+}
+.content {
+  margin-top: 1em;
+}
+.read-more {
+  display: flex;
+  flex-grow: 0.3;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+  padding: 12px;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.join-more {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+  padding: 12px;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.post-date {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.post-author {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.post-tags {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.post-content {
+  letter-spacing: .03em;
+  word-wrap: break-word;
+  font-family: 'Anek Tamil', sans-serif;
+  font-size: 18px;
+  color: #221f1f;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.content h1 {
+  font-size:21px;
+  font-weight: 600;
+}
+.content h2 {
+  font-size:20px;
+  font-weight: 600;
+}
+.content h3 {
+  font-size:20px;
+}
+.content h4 {
+  font-size:18px;
+}
+.post-nav p {
+  font-size: 16px;
+  font-family: 'Anek Tamil', sans-serif;
+}
+.post-content img {
+  max-width: 80%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  letter-spacing: .03em;
+  word-wrap: break-word;
+  font-family: 'Anek Tamil', sans-serif;
+  font-size: 18px;
+  color: #221f1f;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+blockquote {
+  letter-spacing: .03em;
+  font-family: 'Anek Tamil', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.user-form {
+  font-family: 'Anek Tamil', sans-serif;
+}
+.user-form p {
+  letter-spacing: .03em;
+  line-height: 20px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  font-family: 'Anek Tamil', sans-serif;
+  font-size: 18px;
+  color: #221f1f;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.user-form button {
+  display: flex;
+  flex-grow: 0.3;
+  font-family: 'Anek Tamil', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 32px;
+  padding: 12px;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.user-form input {
+  display: flex;
+  flex-grow: 0.3;
+  font-family: 'Anek Tamil', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 32px;
+  padding: 12px;
+  -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased !important;
+ -moz-font-smoothing: antialiased !important;
+ text-rendering: optimizelegibility !important;
+}
+.site-bio {
+  letter-spacing: .03em;
+  word-wrap: break-word;
+  color: #6200ff;
+  border-bottom: 0.125em solid rgb(223, 152, 0);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+}
+.level-item {
+font-size: 16px;
+font-weight: 600;
+}
+.input-box,
+.sign-button,
+textarea {
+  text-align: center;
+  margin: 0 auto;
+}
+.sign-button {
+  max-width: 100%;
+}
+.input-box,
+textarea,
+.sign-button {
+width: 45rem !important;
+min-height: 3rem;
+}
+input[type=checkbox] {
+  vertical-align:middle;
+}
+/* Social icons */
+.widgetheading h1 {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 7px 0 7px 0;
+    color: #222222;
+    text-align: center;
+}
+.widgetheading p {
+    font-size: 16px;
+    color: #222222;
+    font-weight: 400;
+    padding: 3px 0 0;
+}
+.social-profile a:hover {
+ color: #4465f7
+}
+.rssicon {
+    color: #f89839;
+    font-size: 24px;
+    margin: 0 18px 0 5px;
+}
+.twittericon {
+    color: #55acee;
+    font-size: 24px;
+    margin: 0 18px 0 0px;
+}
+.fbicon {
+    color: #3b5998;
+    font-size: 24px;
+    margin: 0 18px 0 0px;
+}
+.gplusicon {
+    color: #d34836;
+    font-size: 24px;
+    margin: 0 18px 0 0px;
+}
+.instagram {
+    color: #e4405f;
+    font-size: 24px;
+    margin: 0 18px 0 0px;
+}
+.emailicon {
+    color: #9a9a9a;
+    font-size: 24px;
+}
+/* Hide on Mobile */
+@media only screen and (max-width: 800px) {
+    .hide-on-mobile {
+        display: none!important
+    }
+}
+table {
+  display: inline-block;
+  overflow-x: auto;
+  margin: 0.5em 0 2.5em;
+  max-width: 100%;
+  width: auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-family: 'Anek Tamil', sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+  vertical-align: top;
+}
+table th {
+  color:  #15171A;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #e5eff5;
+}
+table th,
+table td {
+  padding: 6px 12px;
+  border: #e5eff5 1px solid;
+}
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.btn {
+    margin-bottom:4px;white-space: normal;
+}
+.input {
+    margin-bottom:4px;white-space: normal;
+}
+.button-link {
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 0;
+  padding: 10px 32px;
+  color: #fff !important;
+  font-size: 25px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.1);
+  background: linear-gradient(#4fb7f0,#29a0e0 60%,#29a0e0 90%,#36a6e2);
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.14);
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: 'Anek Tamil', sans-serif;
+}
+.button-link:hover {
+background: linear-gradient(#36a6e2,#29a0e0 60%,#29a0e0 90%,#4fb7f0);
+box-shadow: 0px 0px 5px 0 rgba(100, 100, 100, 0.5);
+}
+.button-link:active, .button-link:focus { background: #209cdf; color: #fff !important; }
+@media (max-width: 500px) {
+  .button-link {
+      margin: 10px 0 0 0;
+      width: 100%;
+  }
+}
+.subscribe-button {
+  display: block;
+  padding: 4px 10px;
+  border: #fff 1px solid;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1em;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.subscribe-button:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+.subscribe-form button {
+  opacity: 0.9;
+}
+.subscribe-form {
+  margin: 1.5em 0;
+  padding: 6.5vw 7vw 8vw;
+  border: #c5d2d9 1px solid;
+  text-align: center;
+  background: #e5eff5;
+  border-radius: 3px;
+}
+.subscribe-form-title {
+  margin: 0 0 3px 0;
+  padding: 0;
+  color: #15171A;
+  font-size: 3.5rem;
+  line-height: 1;
+  font-weight: 600;
+}
+.subscribe-form-description {
+  margin-bottom: 0.2em 0 1em;
+  color: #738a94;
+  font-size: 2.1rem;
+  line-height: 1.55em;
+}
+@media (max-width: 650px) {
+  .subscribe-form-title {
+      font-size: 2.4rem;
+  }
+
+  .subscribe-form-description {
+      font-size: 1.6rem;
+  }
+}
+#cookie-notice {
+  color: #fff;
+  font-family: 'Anek Tamil', sans-serif;
+  background: #596cd5;
+  padding: 20px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  margin: 0px;
+  visibility: hidden;
+  z-index: 1000000
+}
+#cookie-notice button {
+  color: inherit;
+  background: #3842c7;
+  border: 0;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer
+}
+@media only screen and (max-width:600px) {
+  #cookie-notice {
+      max-width: 100%;
+      bottom: 0;
+      left: 0;
+      border-radius: 0
+  }
+}
+footer p {
+  font-size: 16px;
+  font-weight: 500;
+}

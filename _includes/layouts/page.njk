@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+bodyClass: page-post
+---
+
+<article class="{{ bodyClass }}">
+<h1 class="title has-text-centered">{{ title }}</h1>
+<section class="post-content">
+{{ content | safe }}
+</section>
+</article>
