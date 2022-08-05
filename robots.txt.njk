@@ -3,5 +3,22 @@ Disallow: /ghost/
 Disallow: /p/
 Disallow: /email/
 Disallow: /404.html
+Disallow: /love/
+Disallow: /love/?name=
+
+User-agent: NinjaBot
+Allow: /
+
+User-agent: Mediapartners-Google*
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+ 
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: HTTrack
+Disallow: /
 
 Sitemap: {{ 'sitemap.xml' | url(true) }}

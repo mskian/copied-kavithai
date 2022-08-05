@@ -42,4 +42,4 @@ jobs:
         run: ssh-keyscan -p ${{ secrets.SSH_PORT}} -H ${{ secrets.SSH_HOST }}  >> ~/.ssh/known_hosts
 
       - name: Deploy with rsync
-        run: rsync -azP --rsh="ssh -p ${{ secrets.SSH_PORT }}" --delete-after --delete-excluded _site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/copied-kavithai/_site
+        run: rsync -avr --rsh="ssh -p ${{ secrets.SSH_PORT }}" --delete-after --delete-excluded _site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/copied-kavithai/_site
