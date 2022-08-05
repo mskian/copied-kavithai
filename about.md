@@ -1,8 +1,9 @@
 ---
 layout: layouts/page.njk
-title: Kavithai Database
+title: Tamil Kavithai Database - Tamil Kavithai Site
 description: Copied Kavithai From Tamil Kavithai Sites, Facebook Profiles, and Twitter Profiles - Tamil Kavithai and Tamil Quotes Status.
 menu:
+  title: "About us"
   visible: true
   order: 2
 ---

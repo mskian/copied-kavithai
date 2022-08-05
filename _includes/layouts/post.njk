@@ -7,7 +7,7 @@ bodyClass: body-post
 <h1 class="title has-text-centered">{{ title }}</h1>
 <span class="post-tags">
 {% for tag in tags %}
-<a href="/tags/{{ tag | lower | replace(" ", "-") }}/" class="tag is-danger">{{ tag }}</a>
+<a href="/tag/{{ tag | lower | replace(" ", "-") }}/" class="tag is-danger">{{ tag }}</a>
 {% endfor %}
 </span> - 
 <time class="post-date" datetime="{{ updated_date | date('DATETIME') }}">
@@ -19,7 +19,9 @@ bodyClass: body-post
 {{ content | safe }}
 </section>
 </article>
-<p class="post-nav has-text-centered">
+<br>
+<hr>
+<p class="post-nav has-text-centered" style="font-size: 15px;">
     {%- set previousPost = search.previousPage(url, "type=posts") %}
     {%- if previousPost %}
       ← Previous: <a href="{{ previousPost.data.url }}" rel="prev">{{ previousPost.data.title }}</a>
@@ -30,3 +32,4 @@ bodyClass: body-post
     {% endif %}
   </ul>
 </p>
+<hr>

@@ -10,7 +10,7 @@ Build using lume.land - Static site generator for Deno
 
 ## Servers
 
-- Live Site - <https://copied.kavithai.site>
+- Live Site - <https://kavithai.site>
 
 ## Create your's
 

@@ -1,18 +1,19 @@
 ---
 layout: layouts/base.njk
 bodyClass: body-tag
+pageTitle: Kavithai index
 ---
 
-<h1>{{ title }}{%- if pagination.previous %} Page - {{ pagination.page }} {% else %}{% endif %}</h1>
+<h1>{{ pageTitle }}{%- if pagination.previous %} Page - {{ pagination.page }} {% else %}{% endif %}</h1>
 
 <hr>
 
 {% set postslist = results %}
 {% include "templates/postslist.njk" %}
 
-<hr>
+<br>
 
-<p class="post-nav has-text-centered">
+<p class="post-nav has-text-centered" style="font-size: 16px;">
     {%- if pagination.previous %}
       <a href="{{ pagination.previous }}" rel="prev">← Previous</a>
     {% endif %}
@@ -22,4 +23,4 @@ bodyClass: body-tag
     {% endif %}
   </ul>
 </p>
-<br />
+<br>

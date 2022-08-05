@@ -1,5 +1,6 @@
 export const layout = "layouts/archive.njk";
-export const title = "Archive";
+export const title = "Archive - Post Page - Tamil Kavithai Database";
+export const pageTitle = "Kavithai index";
 
 export default function* ({ search, paginate }) {
   const posts = search.pages("type=posts", "date=desc");
@@ -10,6 +11,7 @@ export default function* ({ search, paginate }) {
     // Show the first page in the menu
     if (data.pagination.page === 1) {
       data.menu = {
+        title: "Blog",
         visible: true,
         order: 1,
       };
@@ -24,5 +26,5 @@ function url(n) {
     return "/posts/";
   }
 
-  return `/posts/${n}/`;
+  return `/page/${n}/`;
 }

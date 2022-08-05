@@ -2,7 +2,7 @@
 title: Tamil Copied Kavithai - Tamil Kavithai Database
 description: Tamil Copied Kavithai - Tamil Kavithai Database - Copied Kavithai From Tamil Kavithai Sites, Facebook, and Twitter Profiles.
 date: 2022-07-07
-updated_date: 2022-08-01
+updated_date: 2022-08-05
 tags: 
   - Kavithai
   - Tamil Quotes
@@ -1241,7 +1241,7 @@ Copied from Twitter Profiles.
 
 ---
 
-மிகவும் சவாலானது         
+மிகவும் சவாலானது  
 நம்மைப் பற்றிய  
 பிறரது கற்பனைகளோடு  
 நாம் போராடுவது தான்  

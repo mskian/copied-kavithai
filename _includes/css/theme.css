@@ -470,3 +470,14 @@ footer p {
   font-size: 16px;
   font-weight: 500;
 }
+.post-content p {
+  letter-spacing: 0.03em;
+  word-wrap: break-word;
+  font-size: 16px;
+  font-family: 'Anek Tamil', sans-serif;
+  color: #221f1f;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+}

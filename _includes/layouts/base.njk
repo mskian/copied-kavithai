@@ -43,6 +43,7 @@
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link rel="dns-prefetch" href="//hulu.sanweb.info">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
     <link rel="manifest" href="/manifest.json">
     <link rel="prefetch" href="/manifest.json">
@@ -130,14 +131,26 @@
   </script>
   {% endif %}
 
-  <script async defer data-website-id="71cc8b3a-2de0-45ea-a970-8f80e9da9083" data-domains="copied.kavithai.site" src="https://hulu.sanweb.info/script.js"></script>
-  
+  <script async defer data-website-id="e981ef76-97a6-478b-8d54-64103c9fabbe" data-domains="kavithai.site" src="https://hulu.sanweb.info/script.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HDF44Q7QPZ"></script>
+  <script>
+    if(true) {
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+          
+     gtag('config', 'G-HDF44Q7QPZ', {
+     'page_title' : '{{ title or site.title }}',
+     'page_location': '{{ url | url(true) }}'
+     });
+    }
+  </script>
   </head>
   <body>
 
 <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
 <div class="navbar-brand">
-<a class="navbar-item" href="/">Kavithai Database</a>
+<a class="navbar-item" href="/"><img src="{{ "/" | url(true) }}img/Icon-72x72.webp" alt="{{ site.title }}" loading="lazy"></a>
 <a role="button" class="navbar-burger burger" aria-label="menu" data-target="navMenu">
 <span aria-hidden="true"></span>
 <span aria-hidden="true"></span>
@@ -171,7 +184,7 @@
 
 <footer class="footer">
 <div class="content has-text-centered">
-<p class="is-size-6"><b>Copied Kavithai Database</b> - Build using lume the Static site generator for Deno {{lume_version}}</p>
+<p class="is-size-6"><b>&#169; Copied Kavithai Database</b> - Last Build at: <code>{{date | date("ATOM")}}</code></p>
 </div>
 </footer>
 
