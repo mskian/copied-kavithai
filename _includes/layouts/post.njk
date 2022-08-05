@@ -10,7 +10,7 @@ bodyClass: body-post
 <a href="/tag/{{ tag | lower | replace(" ", "-") }}/" class="tag is-danger">{{ tag }}</a>
 {% endfor %}
 </span> - 
-<time class="post-date" datetime="{{ updated_date | date('DATETIME') }}">
+<time class="post-date" datetime="{{ updated_date | date('DATE') }}">
 {{ updated_date | date('HUMAN_DATE') }}
 </time>
 <br />

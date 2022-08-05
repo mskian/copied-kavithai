@@ -9,7 +9,7 @@
 </a>
 </h2> 
 <p class="subtitle post-date">
-<time class="postList-date" datetime="{{ post.data.updated_date | date('DATETIME') }}">
+<time class="postList-date" datetime="{{ post.data.updated_date | date('DATE') }}">
 {{ post.data.updated_date | date('HUMAN_DATE') }}
 </time>
 {% for tag in post.data.tags %}

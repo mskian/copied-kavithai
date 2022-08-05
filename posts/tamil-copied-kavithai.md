@@ -1,8 +1,8 @@
 ---
 title: Tamil Copied Kavithai - Tamil Kavithai Database
 description: Tamil Copied Kavithai - Tamil Kavithai Database - Copied Kavithai From Tamil Kavithai Sites, Facebook, and Twitter Profiles.
-date: 2022-08-05
-updated_date: 2022-08-05
+date: 2022-08-05T18:57:37+05:30
+updated_date: 2022-08-05T18:57:37+05:30
 tags: 
   - Kavithai
   - Tamil Quotes

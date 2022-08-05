@@ -58,4 +58,9 @@ site.data("current_year", function () {
   return GetYear;
 });
 
+site.data("build_date", function () {
+  const GetDate = new Date();
+  return GetDate;
+});
+
 export default site;
