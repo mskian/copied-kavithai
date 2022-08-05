@@ -1,4 +1,4 @@
-export const url = "/search.json";
+export const url = "/api.json";
 
 export default function ({ search }, { url }) {
   const result = [];
@@ -8,7 +8,7 @@ export default function ({ search }, { url }) {
     result.push({
       label: `Tag: ${tag}`,
       search: tag,
-      value: url(`/tags/${tag}/`),
+      value: url(`/tag/${tag}/`),
     });
   }
 

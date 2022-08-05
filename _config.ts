@@ -6,7 +6,6 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 import basePath from "lume/plugins/base_path.ts";
 import slugifyUrls from "lume/plugins/slugify_urls.ts";
 import resolveUrls from "lume/plugins/resolve_urls.ts";
-import gpm from "https://deno.land/x/gpm@v0.5.0/mod.ts";
 import metas from "lume/plugins/metas.ts";
 import minify from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/minify-html/mod.ts";
 import imagick from "lume/plugins/imagick.ts";
@@ -32,10 +31,6 @@ site
   .use(basePath())
   .use(slugifyUrls({ alphanumeric: false }))
   .use(resolveUrls())
-  .addEventListener(
-    "beforeBuild",
-    () => gpm(["oom-components/searcher"], "js/vendor"),
-  )
   .use(metas())
   .loadAssets([".css", ".png", ".jpg", ".svg", ".webp", ".gif", ".jpeg"])
   .use(minify({
