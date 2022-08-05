@@ -17,7 +17,14 @@ const site = lume({
 });
 
 site
-  .ignore("README.md", "CHANGELOG.md", "node_modules", "LICENSE", "bulma.min.css", "styles.css")
+  .ignore(
+    "README.md",
+    "CHANGELOG.md",
+    "node_modules",
+    "LICENSE",
+    "bulma.min.css",
+    "styles.css",
+  )
   .copy("icons")
   .use(postcss())
   .use(terser())
@@ -32,7 +39,7 @@ site
   .use(metas())
   .loadAssets([".css", ".png", ".jpg", ".svg", ".webp", ".gif", ".jpeg"])
   .use(minify({
-     extensions: [".css", ".html"],
+    extensions: [".css", ".html"],
   }))
   .use(imagick({
     extensions: [".jpg", ".png"],
@@ -41,14 +48,19 @@ site
     locales: ["en-IN"],
   }));
 
-  site.process([".html"], (page) => {
-    page.document.querySelectorAll("img").forEach((img) => {
-      if (!img.hasAttribute("loading")) {
-        img.setAttribute("loading", "lazy");
-      }
-    });
+site.process([".html"], (page) => {
+  page.document.querySelectorAll("img").forEach((img) => {
+    if (!img.hasAttribute("loading")) {
+      img.setAttribute("loading", "lazy");
+    }
   });
+});
 
 site.data("lume_version", getLumeVersion());
+
+site.data("current_year", function () {
+  const GetYear = new Date().getFullYear();
+  return GetYear;
+});
 
 export default site;
