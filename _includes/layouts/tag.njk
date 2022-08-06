@@ -8,4 +8,16 @@ bodyClass: body-tag
 {% set postslist = search.pages("'" + tag + "'") %}
 {% include "templates/postslist.njk" %}
 <hr>
-<p style="font-size: 15px;">See <a href="/tags/">all tags</a>.</p>
+<p style="font-size: 15px;">See <a href="/tag/">all tags</a>.</p>
+
+<p class="post-nav has-text-centered" style="font-size: 16px;">
+    {%- if pagination.previous %}
+      <a href="{{ pagination.previous }}" rel="prev">← Previous</a>
+    {% endif %}
+      {%- if pagination.next %} Page - {{ pagination.page }} {% else %}{% endif %}
+    {%- if pagination.next %}
+      <a href="{{ pagination.next }}" rel="next">Next →</a>
+    {% endif %}
+  </ul>
+</p>
+<br>
