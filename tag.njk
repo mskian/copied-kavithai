@@ -1,8 +1,10 @@
 ---
+title: All Post tags - Tamil Copied Kavithai
+description: All Post tags - Tamil Copied Kavithai - Tamil Kavithai Site - Kavithai for Social Status and Stories.
 layout: layouts/base.njk
 ---
 <h1>Tags</h1>
 
 {% for page in search.pages("type=tag", "tag") %}
-<P style="font-size: 15px;"><a href="{{ page.data.url }}" class="tag is-success">{{ page.data.tag }}</a><p>
+<P style="font-size: 15px;"><a href="{{ page.data.url }}" class="tag is-link">{{ page.data.tag }}</a><p>
 {% endfor %}
