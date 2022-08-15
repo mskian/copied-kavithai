@@ -2,7 +2,7 @@
 title: Tamil Copied Kavithai - Tamil Kavithai Database
 description: Tamil Copied Kavithai - Tamil Kavithai Database - Copied Kavithai From Tamil Kavithai Sites, Facebook, and Twitter Profiles.
 date: 2022-08-05T18:57:37+05:30
-updated_date: 2022-08-09T09:51:23+05:30
+updated_date: 2022-08-15T22:40:19+05:30
 tags: 
   - Kavithai
   - Tamil Quotes
@@ -1619,3 +1619,13 @@ Copied from Twitter Profiles.
 என் மனது
 
 ---
+
+அணைத்து கொள்ளும்  
+அன்பே  
+மாபெரும் ஆறுதல்
+
+---
+
+### Related
+
+- [Tamil Copied Kavithai](/posts/kavithai-2022-05-101845/)
