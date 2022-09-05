@@ -7,7 +7,7 @@ import basePath from "lume/plugins/base_path.ts";
 import slugifyUrls from "lume/plugins/slugify_urls.ts";
 import resolveUrls from "lume/plugins/resolve_urls.ts";
 import metas from "lume/plugins/metas.ts";
-import minify from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/minify-html/mod.ts";
+import minifyHTML from "lume/plugins/minify_html.ts";
 import imagick from "lume/plugins/imagick.ts";
 import { getLumeVersion } from "lume/core/utils.ts";
 
@@ -33,7 +33,7 @@ site
   .use(resolveUrls())
   .use(metas())
   .loadAssets([".css", ".png", ".jpg", ".svg", ".webp", ".gif", ".jpeg"])
-  .use(minify({
+  .use(minifyHTML({
     extensions: [".css", ".html"],
   }))
   .use(imagick({
