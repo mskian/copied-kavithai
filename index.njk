@@ -46,6 +46,8 @@ width="120"
 <p>🛍 Build using lume the Static site generator for Deno {{lume_version}} + PWA offline Support</p>
 </div>
 <hr>
+<div id="search"></div>
+<hr>
 {% set postslist = search.pages("type=posts", "date=desc", 3) %}
 <h4>Latest Kavithai {% if postslist.length == 1 %}Post{% else %}{{ postslist.length }} Posts 📕{% endif %}</h4>
 <hr>

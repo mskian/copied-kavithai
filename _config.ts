@@ -10,6 +10,7 @@ import metas from "lume/plugins/metas.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 import imagick from "lume/plugins/imagick.ts";
 import { getLumeVersion } from "lume/core/utils.ts";
+import pageFind from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/pagefind/mod.ts";
 
 const site = lume({
   location: new URL("https://kavithai.site/"),
@@ -29,6 +30,11 @@ site
   .use(terser())
   .use(codeHighlight())
   .use(basePath())
+  .use(pageFind({
+    ui: {
+      resetStyles: false,
+    }
+  }))
   .use(slugifyUrls({ alphanumeric: false }))
   .use(resolveUrls())
   .use(metas())
