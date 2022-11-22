@@ -2,7 +2,7 @@
 title: Tamil Kavithai and Tamil Quotes Collections - Tamil Copied Kavithai
 description:  தமிழ் கவிதைகள் - Latest collections of Kavithai and Quotes in Tamil - Tamil Social Media கவிதை for Stories and Status.
 date: 2022-11-01T13:55:16+05:30
-updated_date: 2022-11-22T10:30:25+05:30
+updated_date: 2022-11-22T10:44:21+05:30
 tags: 
   - Kavithai
   - Tamil Quotes
@@ -356,11 +356,11 @@ Copied from Twitter Profiles.
 ---
 
 (depression)
-மரணம் போல
-தவிர்க்க முடியாதது
-வாழ்வின்
-ஏதோ ஒரு கட்டத்தில்
-எல்லோரையும்
+மரணம் போல  
+தவிர்க்க முடியாதது  
+வாழ்வின்  
+ஏதோ ஒரு கட்டத்தில்  
+எல்லோரையும்  
 நிச்சயம் தாக்கும்
 
 ---
