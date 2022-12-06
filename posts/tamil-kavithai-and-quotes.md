@@ -2,7 +2,7 @@
 title: Tamil Kavithai and Tamil Quotes Collections - Tamil Copied Kavithai
 description:  தமிழ் கவிதைகள் - Latest collections of Kavithai and Quotes in Tamil - Tamil Social Media கவிதை for Stories and Status.
 date: 2022-11-01T13:55:16+05:30
-updated_date: 2022-11-22T10:44:21+05:30
+updated_date: 2022-12-06T17:26:21+05:30
 tags: 
   - Kavithai
   - Tamil Quotes
@@ -455,5 +455,13 @@ Copied from Twitter Profiles.
 பயணிக்கிறது  
 சில உறவுகள்  
 நினைவலைகளாய்
+
+---
+
+ஏழையாய்  
+வாழ்கையில் இருக்கலாம்  
+ஏக்கத்தோடு வாழ்ந்து  
+நரகத்தை  
+அனுபவிக்கக்கூடாது
 
 ---
