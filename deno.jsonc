@@ -4,6 +4,7 @@
     "build": "deno task lume",
     "serve": "deno task lume -s",
     "lume": "deno eval \"import 'lume/task.ts'\" --",
+    "reload": "echo \"import 'lume/cli.ts'\" | deno run --reload --unstable -A -",
     "purge": "purgecss --css ./_includes/css/bulma.min.css --content \"./_includes/**/*.njk\" \"**/*.njk\" \"**/*.md\"  \"./_site/**/*.html\" -o ./_includes/css/app.css"
   }
 }
