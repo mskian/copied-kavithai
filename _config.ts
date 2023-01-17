@@ -45,9 +45,7 @@ site
   .use(imagick({
     extensions: [".jpg", ".png"],
   }))
-  .use(date({
-    locales: ["en-IN"],
-  }));
+  .use(date());
 
 site.process([".html"], (page) => {
   page.document.querySelectorAll("img").forEach((img) => {
