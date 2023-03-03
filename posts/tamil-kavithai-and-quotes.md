@@ -2,7 +2,7 @@
 title: Tamil Kavithai and Tamil Quotes Collections - Tamil Copied Kavithai
 description:  தமிழ் கவிதைகள் - Latest collections of Kavithai and Quotes in Tamil - Tamil Social Media கவிதை for Stories and Status.
 date: 2022-11-01T13:55:16+05:30
-updated_date: 2023-02-03T08:35:55+05:30
+updated_date: 2023-03-03T10:55:09+05:30
 tags: 
   - Kavithai
   - Tamil Quotes
@@ -560,5 +560,33 @@ Copied from Twitter Profiles.
 எதுவுமே சரியில்லாத போதும்  
 எல்லாம் சரி ஆகிவிடாதா என்ற  
 எதிர்பார்ப்பில் வாழ்க்கை நகர்கிறது
+
+---
+
+மனிதன்  
+பல விஷயங்களில்  
+தோற்று  
+துவண்டு போனாலும்  
+துரோகத்தால் விழ்த்தப்படும்  
+போது தான்  
+உடைந்து போகிறான்
+
+---
+
+அன்பிற்கு அதிகம்  
+ஆசைப்படாதே  
+ஆரம்பத்தில்  
+மனச அள்ளுவாங்க  
+பிறகு மனச ரணமாக்கி  
+கொல்லுவாங்க
+
+---
+
+ஒருவரின்  
+அன்பை பெற  
+நாம் நம் சுயத்தை  
+இழக்கவேண்டுமானதாக இருந்தால்  
+அந்த அன்பு  
+நமக்கானதே இல்லை
 
 ---
