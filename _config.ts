@@ -30,11 +30,7 @@ site
   .use(terser())
   .use(codeHighlight())
   .use(basePath())
-  .use(pageFind({
-    ui: {
-      resetStyles: false,
-    }
-  }))
+  .use(pageFind())
   .use(slugifyUrls({ alphanumeric: false }))
   .use(resolveUrls())
   .use(metas())
