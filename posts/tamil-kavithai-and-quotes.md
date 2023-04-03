@@ -2,7 +2,7 @@
 title: Tamil Kavithai and Tamil Quotes Collections - Tamil Copied Kavithai
 description:  தமிழ் கவிதைகள் - Latest collections of Kavithai and Quotes in Tamil - Tamil Social Media கவிதை for Stories and Status.
 date: 2022-11-01T13:55:16+05:30
-updated_date: 2023-03-03T10:55:09+05:30
+updated_date: 2023-04-03T10:43:35+05:30
 tags: 
   - Kavithai
   - Tamil Quotes
@@ -588,5 +588,26 @@ Copied from Twitter Profiles.
 இழக்கவேண்டுமானதாக இருந்தால்  
 அந்த அன்பு  
 நமக்கானதே இல்லை
+
+---
+
+தனித்து நின்றாலும் தனித்துவமாய் நில்  
+
+---
+
+சின்ன சின்ன  
+சந்தோஷங்கள்  
+போதும்  
+வாழ்க்கையை  
+அழகாய் மாற்ற
+
+---
+
+சின்ன சின்ன  
+சந்தோஷங்கள்  
+போதும்  
+வாழ்க்கையை
+அழகாய்  
+மாற்ற
 
 ---
