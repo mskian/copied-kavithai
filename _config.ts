@@ -25,6 +25,7 @@ site
     "bulma.min.css",
     "styles.css",
   )
+  .copy(".well-known")
   .copy("icons")
   .use(postcss())
   .use(terser())
