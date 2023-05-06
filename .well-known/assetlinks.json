@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "site.kavithai.twa",
+                 "sha256_cert_fingerprints": ["DA:C0:10:B8:E2:8E:17:44:0A:A3:1B:48:1E:44:CE:C5:99:6F:E3:1C:BC:E4:27:0A:48:F7:A5:11:7F:A3:43:BC"] }
+}]
