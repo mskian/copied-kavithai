@@ -140,32 +140,32 @@ umami.track({ website: 'e981ef76-97a6-478b-8d54-64103c9fabbe', url: '{{ url }}',
 <script>
 function optIn() {
     document.getElementById("trigger").checked = true;
-    sessionStorage.setItem('aValue', false);
+    localStorage.setItem('aValue', false);
      setTimeout(() => {
     window.location.reload();
     }, 1000);
 }
 function optOut() {
     document.getElementById("trigger").checked = false;
-    sessionStorage.setItem('aValue', true);
+    localStorage.setItem('aValue', true)
      setTimeout(() => {
     window.location.reload();
     }, 1000);
 }
 
-const getCookieValue = sessionStorage.getItem('aValue');
+const getCookieValue = localStorage.getItem('aValue');
 const ON = (getCookieValue == 'true');
 console.log(ON);
 
 window['ga-disable-G-HDF44Q7QPZ'] = ON;
 
 if (ON === false) {
-   console.log('you are tracking');
+   console.log('Trackers are Active');
    window.onload = umamiLoader;
 } else if (ON === true) {
-  console.log('you are not tracking');
+  console.log('Trackers are not Active');
 } else {
-  console.log('something wrong');
+  console.log('something wrong in Storage data');
 }
 
 if (ON === true) {
