@@ -131,10 +131,67 @@
   </script>
   {% endif %}
 
-  <script async defer data-website-id="e981ef76-97a6-478b-8d54-64103c9fabbe" data-domains="kavithai.site" src="https://hulu.sanweb.info/script.js"></script>
+<script async defer src="https://hulu.sanweb.info/script.js" data-website-id="e981ef76-97a6-478b-8d54-64103c9fabbe" data-domains="kavithai.site" data-auto-track="false"></script>
+<script>
+function umamiLoader() {
+umami.track({ website: 'e981ef76-97a6-478b-8d54-64103c9fabbe', url: '{{ url }}', title: '{{ title or site.title }}' });
+}
+</script>
+<script>
+function optIn() {
+    document.getElementById("trigger").checked = true;
+    sessionStorage.setItem('aValue', false);
+     setTimeout(() => {
+    window.location.reload();
+    }, 1000);
+}
+function optOut() {
+    document.getElementById("trigger").checked = false;
+    sessionStorage.setItem('aValue', true);
+     setTimeout(() => {
+    window.location.reload();
+    }, 1000);
+}
+
+const getCookieValue = sessionStorage.getItem('aValue');
+const ON = (getCookieValue == 'true');
+console.log(ON);
+
+window['ga-disable-G-HDF44Q7QPZ'] = ON;
+
+if (ON === false) {
+   console.log('you are tracking');
+   window.onload = umamiLoader;
+} else if (ON === true) {
+  console.log('you are not tracking');
+} else {
+  console.log('something wrong');
+}
+
+if (ON === true) {
+    document.addEventListener("DOMContentLoaded", function() {
+        if (document.getElementById("trigger") != null) {
+            document.getElementById("trigger").checked = false;
+        }
+        if (document.getElementById("notice") != null) {
+           document.getElementById("notice").innerHTML = '<div class="notification is-warning boxpanel">❎ Tracker Disabled</div>';
+        }
+    });
+}
+if (ON === false) {
+    document.addEventListener("DOMContentLoaded", function() {
+        if (document.getElementById("trigger") != null) {
+           document.getElementById("trigger").checked = true;
+        }
+        if (document.getElementById("notice") != null) {
+           document.getElementById("notice").innerHTML = '<div class="notification is-warning boxpanel">✅ Tracker is Active</div>';
+        }
+    });
+}
+</script>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HDF44Q7QPZ"></script>
   <script>
-    if(true) {
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}
      gtag('js', new Date());
@@ -146,11 +203,11 @@
      gtag('config', 'UA-67506568-29', {
      'page_title' : '{{ title or site.title }}',
      'page_location': '{{ url | url(true) }}'
-     });
-    }
+     });   
   </script>
-  </head>
-  <body>
+
+</head>
+<body>
 
 <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
 <div class="navbar-brand">

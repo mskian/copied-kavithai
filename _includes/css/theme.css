@@ -481,3 +481,27 @@ footer p {
   -moz-font-smoothing: antialiased !important;
   text-rendering: optimizelegibility !important;
 }
+.boxpanel {
+  flex-grow: 0.3;
+  font-family: 'Fira Code', monospace;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 25px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+  }
+  .databutton {
+  flex-grow: 0.3;
+  font-family: 'Fira Code', monospace;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+  padding: 20px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+  }
