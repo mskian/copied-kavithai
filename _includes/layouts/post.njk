@@ -24,11 +24,11 @@ bodyClass: body-post
 <p class="post-nav has-text-centered" style="font-size: 15px;">
     {%- set previousPost = search.previousPage(url, "type=posts") %}
     {%- if previousPost %}
-      ← Previous: <a href="{{ previousPost.data.url }}" rel="prev">{{ previousPost.data.title }}</a>
+      ← Previous: <a href="{{ previousPost.url }}" rel="prev">{{ previousPost.title }}</a>
     {% endif %}
     {%- set nextPost = search.nextPage(url, "type=posts") %}
     {%- if nextPost %}
-      <strong>Next: <a href="{{ nextPost.data.url }}" rel="next">{{ nextPost.data.title }}</a> →</strong>
+      <strong>Next: <a href="{{ nextPost.url }}" rel="next">{{ nextPost.title }}</a> →</strong>
     {% endif %}
   </ul>
 </p>

@@ -211,7 +211,7 @@ if (ON === false) {
 
 <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
 <div class="navbar-brand">
-<a class="navbar-item" href="/"><img src="{{ "/" | url(true) }}img/Icon-72x72.webp" alt="{{ site.title }}" loading="lazy"></a>
+<a class="navbar-item" href="/"><img src="{{ "/" | url(true) }}img/icon-72x72.webp" alt="{{ site.title }}" loading="lazy"></a>
 <a role="button" class="navbar-burger burger" aria-label="menu" data-target="navMenu">
 <span aria-hidden="true"></span>
 <span aria-hidden="true"></span>
@@ -221,8 +221,8 @@ if (ON === false) {
 <div id="navMenu" class="navbar-menu">
 <div class="navbar-end">
 {%- for entry in search.pages("menu.visible=true", "menu.order") %}
-<a class="navbar-item" href="{{ entry.data.url }}"{% if entry.data.url == url %} aria-current="page"{% endif %}>
- {{ entry.data.menu.title or entry.data.title }}
+<a class="navbar-item" href="{{ entry.url }}"{% if entry.data.url == url %} aria-current="page"{% endif %}>
+ {{ entry.menu.title or entry.title }}
 </a>
 {%- endfor %}
 </div>

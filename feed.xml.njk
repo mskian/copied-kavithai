@@ -1,3 +1,7 @@
+---
+url: /feed.xml
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -6,7 +10,7 @@
 	<link href="{{ url | url(true) }}" rel="self"/>
 	<link href="{{ "/" | url(true) }}"/>
 	{% set lastPage = search.pages() | last %}
-	<updated>{{ lastPage.data.date | date("ATOM") }}</updated>
+	<updated>{{ lastPage.date | date("ATOM") }}</updated>
 	<id>{{ "/" | url(true) }}</id>
 	<author>
 		<name>{{ site.author.name }}</name>
@@ -14,11 +18,11 @@
 	</author>
 	{%- for post in search.pages("type=posts", "date=desc", 10) %}
 	<entry>
-		<title>{{ post.data.title }}</title>
-		<link href="{{ post.data.url | url(true) }}"/>
-		<updated>{{ post.data.updated_date | date("ATOM") }}</updated>
-		<id>{{ post.data.url | url(true) }}</id>
-		<content type="html">{{ post.data.content | md | htmlUrl(true) }}</content>
+		<title>{{ post.title }}</title>
+		<link href="{{ post.url | url(true) }}"/>
+		<updated>{{ post.updated_date | date("ATOM") }}</updated>
+		<id>{{ post.url | url(true) }}</id>
+		<content type="html">{{ post.content | md | htmlUrl(true) }}</content>
 	</entry>
 	{%- endfor %}
 </feed>

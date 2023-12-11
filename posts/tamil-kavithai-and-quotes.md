@@ -2,7 +2,7 @@
 title: Tamil Kavithai and Tamil Quotes Collections - Tamil Copied Kavithai
 description:  தமிழ் கவிதைகள் - Latest collections of Kavithai and Quotes in Tamil - Tamil Social Media கவிதை for Stories and Status.
 date: 2022-11-01T13:55:16+05:30
-updated_date: 2023-05-12T08:09:53+05:30
+updated_date: 2023-12-11T17:05:25+05:30
 tags: 
   - Kavithai
   - Tamil Quotes

@@ -1,4 +1,5 @@
 import lume from "lume/mod.ts";
+import nunjucks from "lume/plugins/nunjucks.ts";
 import date from "lume/plugins/date.ts";
 import postcss from "lume/plugins/postcss.ts";
 import terser from "lume/plugins/terser.ts";
@@ -8,9 +9,10 @@ import slugifyUrls from "lume/plugins/slugify_urls.ts";
 import resolveUrls from "lume/plugins/resolve_urls.ts";
 import metas from "lume/plugins/metas.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
-import imagick from "lume/plugins/imagick.ts";
-import { getLumeVersion } from "lume/core/utils.ts";
+import picture from "lume/plugins/picture.ts";
+import transformImages from "lume/plugins/transform_images.ts";
 import pageFind from "lume/plugins/pagefind.ts";
+import { getCurrentVersion } from "lume/core/utils/lume_version.ts";
 
 const site = lume({
   location: new URL("https://kavithai.site/"),
@@ -25,6 +27,7 @@ site
     "bulma.min.css",
     "styles.css",
   )
+  .use(nunjucks())
   .copy(".well-known")
   .copy("icons")
   .use(postcss())
@@ -39,20 +42,11 @@ site
   .use(minifyHTML({
     extensions: [".css", ".html"],
   }))
-  .use(imagick({
-    extensions: [".jpg", ".png"],
-  }))
+  .use(picture())
+  .use(transformImages())
   .use(date());
 
-site.process([".html"], (page) => {
-  page.document.querySelectorAll("img").forEach((img) => {
-    if (!img.hasAttribute("loading")) {
-      img.setAttribute("loading", "lazy");
-    }
-  });
-});
-
-site.data("lume_version", getLumeVersion());
+site.data("lume_version", getCurrentVersion());
 
 site.data("current_year", function () {
   const GetYear = new Date().getFullYear();

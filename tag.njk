@@ -6,5 +6,5 @@ layout: layouts/base.njk
 <h1>Tags</h1>
 
 {% for page in search.pages("type=tag", "tag") %}
-<P style="font-size: 15px;"><a href="{{ page.data.url }}" class="tag is-link">{{ page.data.tag }}</a><p>
+<P style="font-size: 15px;"><a href="{{ page.url }}" class="tag is-link">{{ page.tag }}</a><p>
 {% endfor %}
