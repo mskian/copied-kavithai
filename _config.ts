@@ -53,6 +53,17 @@ site.data("current_year", function () {
   return GetYear;
 });
 
+site.process([".html"], (pages) => {
+  console.log("Preparing for adding loading lazy");
+  for (const page of pages) {
+    page.document?.querySelectorAll("img").forEach((img) => {
+      if (!img.hasAttribute("loading")) {
+          img.setAttribute("loading", "lazy");
+      }
+  });
+}
+});
+
 site.data("build_date", function () {
   const GetDate = new Date();
   return GetDate;
