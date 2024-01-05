@@ -7,5 +7,10 @@
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
     "reload": "echo \"import 'lume/cli.ts'\" | deno run --reload --unstable -A -",
     "purge": "purgecss --css ./_includes/css/bulma.min.css --content \"./_includes/**/*.njk\" \"**/*.njk\" \"**/*.md\"  \"./_site/**/*.html\" -o ./_includes/css/app.css"
+  },
+  "compilerOptions": {
+    "types": [
+      "lume/types.ts"
+    ]
   }
 }
