@@ -1,5 +1,6 @@
 {
   "importMap": "import_map.json",
+  "lock": false,
   "tasks": {
     "build": "deno task lume",
     "serve": "deno task lume -s",

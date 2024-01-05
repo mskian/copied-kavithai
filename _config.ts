@@ -13,6 +13,7 @@ import picture from "lume/plugins/picture.ts";
 import transformImages from "lume/plugins/transform_images.ts";
 import pageFind from "lume/plugins/pagefind.ts";
 import { getCurrentVersion } from "lume/core/utils/lume_version.ts";
+import "lume/types.ts";
 
 const site = lume({
   location: new URL("https://kavithai.site/"),
