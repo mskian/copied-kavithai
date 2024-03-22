@@ -4,8 +4,8 @@
   "tasks": {
     "build": "deno task lume",
     "serve": "deno task lume -s",
-    "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
-    "reload": "echo \"import 'lume/cli.ts'\" | deno run --reload --unstable -A -",
+    "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
+    "reload": "echo \"import 'lume/cli.ts'\" | deno run --reload -A -",
     "purge": "purgecss --css ./_includes/css/bulma.min.css --content \"./_includes/**/*.njk\" \"**/*.njk\" \"**/*.md\"  \"./_site/**/*.html\" -o ./_includes/css/app.css"
   },
   "compilerOptions": {
