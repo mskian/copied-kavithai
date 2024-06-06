@@ -10,9 +10,16 @@ tags:
 
 ## தமிழ் கவிதை
 
-தமிழ் கவிதை - Kavithai Blog Collections - New kavithai data copied from Kavithai Blog and ShareChat.
+தமிழ் கவிதை - Kavithai Blog Collections - New kavithai data copied from Kavithai Blog and ShareChat.  
 
 > தமிழ் கவிதை and Tamil Quotes
+
+- Tamil Life Quotes
+- Tamil Motivation
+- Tamil Whatspp status
+- kadhal kavithai
+- Kavithai Blog Kavithai
+- Tamil SMS kavithai  
 
 ## Disclaimer
 
@@ -23,7 +30,7 @@ Favourite Tamil SMS and Tamil Kavithai.
 it contains Tamil kavithai and Tamil Quotes From Different Categories. All are
 Copied from Kavithai Blog, Twitter Profiles and Other Social Platforms.  
 
-## தமிழ் கவிதை
+## தமிழ் கவிதைகள்
 
 ---
 
