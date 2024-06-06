@@ -1095,4 +1095,4 @@ Copied from Kavithai Blog, Twitter Profiles and Other Social Platforms.
 
 All kavithai collected from - <a href="https://kavithai.blog/" target="_blank" rel="nofollow noopener">kavithai.Blog</a>
 
-> [Tamil kavithai Database](/posts/tamil-kavithai-and-quotes/) - Kavithai Blog Collections  
+> [Tamil kavithai Database](/posts/kavithai-2022-05-101845/) - Kavithai Blog Collections  
