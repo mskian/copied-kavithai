@@ -505,3 +505,6 @@ footer p {
   -moz-font-smoothing: antialiased !important;
   text-rendering: optimizelegibility !important;
   }
+.quote-text {
+    white-space: pre-line;
+}
