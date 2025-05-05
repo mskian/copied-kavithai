@@ -1,13 +1,13 @@
 ---
-title: 50 Tamil Life & Happiness Quotes (கவிதை வரிகள்)
-description: '50 Tamil Life & Happiness Quotes (கவிதை வரிகள்) For Whatsapp Status and instagram stories.'
+title: 50 Tamil Life and Happiness Quotes (கவிதை வரிகள்)
+description: '50 Tamil Life and Happiness Quotes (கவிதை வரிகள்) For Whatsapp Status and instagram stories.'
 date: 2025-05-05T10:55:17+05:30
 updated_date: 2025-05-05T11:00:31+05:30
 tags:
   - Kavithai
 ---
 
-50 Tamil Life & Happiness Quotes (கவிதை வரிகள்) For Whatsapp Status and instagram stories.  
+50 Tamil Life and Happiness Quotes (கவிதை வரிகள்) For Whatsapp Status and instagram stories.  
 
 ***
 
