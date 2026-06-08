@@ -28,46 +28,56 @@ site
     "bulma.min.css",
     "styles.css",
   )
-  .use(nunjucks())
   .copy(".well-known")
   .copy("icons")
+  .use(nunjucks())
   .use(postcss())
   .use(terser())
   .use(codeHighlight())
   .use(basePath())
   .use(pageFind())
-  .use(slugifyUrls({ alphanumeric: false }))
+  .use(slugifyUrls({
+    alphanumeric: false,
+  }))
   .use(resolveUrls())
   .use(metas())
-  .loadAssets([".css", ".png", ".jpg", ".svg", ".webp", ".gif", ".jpeg"])
-  .use(minifyHTML({
-    extensions: [".css", ".html"],
-  }))
+  .use(minifyHTML())
   .use(picture())
-  .use(transformImages())
-  .use(date());
+  .use(date())
+  .use(transformImages());
 
+  
 site.data("lume_version", getCurrentVersion());
+site.add("style.css");
+site.copy("img");
 
-site.data("current_year", function () {
-  const GetYear = new Date().getFullYear();
-  return GetYear;
+site.add("sw.js");
+site.add("js/flying.js");
+
+site.data("current_year", () => {
+  return new Date().getFullYear();
+});
+
+site.data("build_date", () => {
+  return new Date();
 });
 
 site.process([".html"], (pages) => {
-  console.log("Preparing for adding loading lazy");
-  for (const page of pages) {
-    page.document?.querySelectorAll("img").forEach((img) => {
-      if (!img.hasAttribute("loading")) {
-          img.setAttribute("loading", "lazy");
-      }
-  });
-}
-});
+  console.log("Adding lazy loading to images...");
 
-site.data("build_date", function () {
-  const GetDate = new Date();
-  return GetDate;
+  for (const page of pages) {
+    const images = page.document?.querySelectorAll("img");
+
+    images?.forEach((img) => {
+      if (!img.hasAttribute("loading")) {
+        img.setAttribute("loading", "lazy");
+      }
+
+      if (!img.hasAttribute("decoding")) {
+        img.setAttribute("decoding", "async");
+      }
+    });
+  }
 });
 
 export default site;
