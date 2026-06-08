@@ -2,7 +2,7 @@ name: Publish on Server
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -21,25 +21,26 @@ jobs:
           deno-version: lts
 
       - name: Setup Cache
-        uses: actions/checkout@v6
+        uses: actions/cache@v5
         with:
           path: |
             ~/.deno
             ~/.cache/deno
           key: ${{ runner.os }}-deno-${{ hashFiles('**/_config.ts', '**/import_map.json') }}
+          restore-keys: |
+            ${{ runner.os }}-deno-
 
       - name: Build site
-        run: |
-          deno task build --location=https://kavithai.site
+        run: deno task build --location=https://kavithai.site
 
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: unnecessary
-      
-      - name: Adding Known Hosts
-        run: ssh-keyscan -p ${{ secrets.SSH_PORT}} -H ${{ secrets.SSH_HOST }}  >> ~/.ssh/known_hosts
+
+      - name: Add known hosts
+        run: ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy with rsync
         run: rsync -avr --rsh="ssh -p ${{ secrets.SSH_PORT }}" --delete-after --delete-excluded _site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/copied-kavithai/_site
