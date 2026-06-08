@@ -31,6 +31,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-deno-
 
+      - name: Install npm dependencies
+        run: deno install --allow-scripts=npm:sharp
+
       - name: Clear cache and Dependencies
         run : deno cache --reload _config.ts
 

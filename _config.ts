@@ -11,7 +11,6 @@ import metas from "lume/plugins/metas.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 import picture from "lume/plugins/picture.ts";
 import transformImages from "lume/plugins/transform_images.ts";
-import pagefind from "lume/plugins/pagefind.ts";
 import { getCurrentVersion } from "lume/core/utils/lume_version.ts";
 import "lume/types.ts";
 
@@ -35,7 +34,6 @@ site
   .use(postcss())
   .use(codeHighlight())
   .use(basePath())
-  .use(pagefind())
   .use(slugifyUrls({
     alphanumeric: false,
   }))
