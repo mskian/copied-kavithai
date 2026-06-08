@@ -26,6 +26,7 @@ jobs:
           path: |
             ~/.deno
             ~/.cache/deno
+            ./node_modules
           key: ${{ runner.os }}-deno-${{ hashFiles('**/_config.ts', '**/import_map.json') }}
           restore-keys: |
             ${{ runner.os }}-deno-

@@ -69,10 +69,10 @@
       "sys": true
     }
   },
+ "nodeModulesDir": "auto",
   "allowScripts": {
-    "deny": [
-      "npm:sharp",
-      "npm:@parcel/watcher"
-    ]
-  }
+  "allow": [
+    "npm:sharp"
+  ]
+ }
 }
