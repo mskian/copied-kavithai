@@ -11,7 +11,7 @@ import metas from "lume/plugins/metas.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 import picture from "lume/plugins/picture.ts";
 import transformImages from "lume/plugins/transform_images.ts";
-import pageFind from "lume/plugins/pagefind.ts";
+import pagefind from "lume/plugins/pagefind.ts";
 import { getCurrentVersion } from "lume/core/utils/lume_version.ts";
 import "lume/types.ts";
 
@@ -31,22 +31,21 @@ site
   .copy(".well-known")
   .copy("icons")
   .use(nunjucks())
-  .use(postcss())
   .use(terser())
+  .use(postcss())
   .use(codeHighlight())
   .use(basePath())
-  .use(pageFind())
+  .use(pagefind())
   .use(slugifyUrls({
     alphanumeric: false,
   }))
   .use(resolveUrls())
+  .use(picture())
+  .use(transformImages())
   .use(metas())
   .use(minifyHTML())
-  .use(picture())
-  .use(date())
-  .use(transformImages());
+  .use(date());
 
-  
 site.data("lume_version", getCurrentVersion());
 site.add("style.css");
 site.copy("img");
