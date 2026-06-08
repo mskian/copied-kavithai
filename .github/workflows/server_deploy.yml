@@ -30,6 +30,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-deno-
 
+      - name: Clear cache and Dependencies
+        run : deno cache --reload _config.ts
+
       - name: Build site
         run: deno task build --location=https://kavithai.site
 
